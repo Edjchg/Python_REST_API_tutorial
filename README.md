@@ -106,6 +106,29 @@ If you click over this link, then you will be able to see something like this:
 After this, by adding elements to the URL you will be able to access the REST API from the browser
 
 
+For example, to get all the books available in the API, then just add to the URL:
+
+```sh
+http://127.0.0.1:5000/resources/books/all
+```
+
+You will get something like this:
+
+|![](images/img3.PNG)|
+|:--:|
+|**Figure 3**: The API response after requesting all the books.|
+
+
+But if you want to request or delete a certain book, then add to the URL something like the following:
+
+```sh
+http://127.0.0.1:5000/resources/book?id=<id of the book you want to request>
+```
+
+|![](images/img4.PNG)|
+|:--:|
+|**Figure 3**: The API response after requesting a certain the book.|
+
 
 
 
