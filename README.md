@@ -92,14 +92,14 @@ If you have Pycharm, then just click the Play Button.
 
 After this, you will see on the terminal something like this:
 
-|![](images/img1.png)|
+|![](images/img1.PNG)|
 |:--:|
 |**Figure 1**: The URL where the API is available.|
 
 If you click over this link, then you will be able to see something like this:
 
 
-|![](images/img2.png)|
+|![](images/img2.PNG)|
 |:--:|
 |**Figure 1**: The API response seen from the browser.|
 
