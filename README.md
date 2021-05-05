@@ -128,7 +128,7 @@ http://127.0.0.1:5000/resources/book?id=<id of the book you want to request>
 
 |![](images/img4.PNG)|
 |:--:|
-|**Figure 3**: The API response after requesting a certain the book.|
+|**Figure 4**: The API response after requesting a certain the book.|
 
 
 
