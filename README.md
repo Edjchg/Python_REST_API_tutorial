@@ -101,7 +101,7 @@ If you click over this link, then you will be able to see something like this:
 
 |![](images/img2.PNG)|
 |:--:|
-|**Figure 1**: The API response seen from the browser.|
+|**Figure 2**: The API response seen from the browser.|
 
 After this, by adding elements to the URL you will be able to access the REST API from the browser
 
