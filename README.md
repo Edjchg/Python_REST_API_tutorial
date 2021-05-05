@@ -23,4 +23,10 @@ If you have successfully install those dependencies, it is time to start.
 
 ## Understanding the previous code
 
+We are going to implement almost all the available methods of a REST API.
+
+
+```python
+@main_api.route('/', methods=['GET'])
+```
 
