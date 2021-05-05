@@ -1,7 +1,7 @@
 # Python REST API tutorial
 *by Andrey Garro(@AndreyGarro) & Edgar Chaves(@Edjchg)*
 
-### Some dependencies befor start:
+### Some dependencies before start:
 
 - Python 3.5 or grater
 - Flask
