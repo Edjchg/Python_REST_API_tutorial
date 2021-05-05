@@ -63,6 +63,7 @@ The previous line shows the way we are getting that parameter.
 - **PUT**
 - **PUSH**
 - **DELETE**
+When you want to delete some resource available in the API, this is the method you need to achieve that goal.
 
 ### Executing this little REST API example
 
