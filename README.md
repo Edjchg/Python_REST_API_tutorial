@@ -48,8 +48,8 @@ We specify that certain resource is obtained by one of this methods by declaring
 ```
 Then you can see that we specify the resource method by typing 'GET', or whatever you want to delcare.
 
-- **GET: **
-For example, we have a list of books in the code shown in this repository. In order to access this resource from a browser, you need to execute a **GET**, and in that way you will be able to access that information:
+- **GET:**
+ For example, we have a list of books in the code shown in this repository. In order to access this resource from a browser, you need to execute a **GET**, and in that way you will be able to access that information:
 
 
 When you need a certain element from a set of resources, in this case imagine that you need the only the first book from that JSON. In order to access this element is by passing the id through the URL when you execute a GET from the browser. 
@@ -62,8 +62,8 @@ The previous line shows the way we are getting that parameter.
 
 - **PUT**
 - **PUSH**
-- **DELETE: **
-When you want to delete some resource available in the API, this is the method you need to achieve that goal.
+- **DELETE:**
+ When you want to delete some resource available in the API, this is the method you need to achieve that goal.
 
 ### Executing this little REST API example
 
