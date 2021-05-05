@@ -47,5 +47,16 @@ def take_certain_book():
     return jsonify(result)
 
 
+@main_api.route('/book/delete/', methods=['DELETE'])
+def delete_book():
+    ide = 0
+    if 'id' in request.args:
+        ide = int(request.args['id'])
+
+    for book in books:
+        if book['id'] == ide:
+            books.remove(book)
+
+
 if __name__ == "__main__":
     main_api.run()
