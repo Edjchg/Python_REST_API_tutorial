@@ -192,7 +192,7 @@ If you add parameters and execute it you will have something like this:
 |:--:|
 |**Figure 6**: The API response after requesting to add a new book.|
 
-And finally, let's change the title of the last book we added, as you can see, in the last result our book id is '3' 
+And finally, let's change the title of the last book we added, by creating a **PUT** request, as you can see, in the last result our book id is '3' 
 so you have to type the next URL to create the request:
 
 ```sh
