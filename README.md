@@ -128,7 +128,43 @@ http://127.0.0.1:5000/resources/book?id=<id of the book you want to request>
 
 |![](images/img4.PNG)|
 |:--:|
-|**Figure 4**: The API response after requesting a certain the book.|
+|**Figure 4**: The API response after requesting a certain book.|
+
+
+When using delete, by using some API manager send a request to the API at this URL:
+
+```sh
+http://127.0.0.1:5000/book/delete?id=<the book you want to delete>
+```
+
+And the headers must be:
+
+```sh
+books = [
+    {'id': 0,
+     'title': 'A Fire Upon the Deep',
+     'author': 'Vernor Vinge',
+     'first_sentence': 'The coldsleep itself was dreamless.',
+     'year_published': '1992'},
+    {'id': 1,
+     'title': 'The Ones Who Walk Away From Omelas',
+     'author': 'Ursula K. Le Guin',
+     'first_sentence': 'With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.',
+     'published': '1973'},
+    {'id': 2,
+     'title': 'Dhalgren',
+     'author': 'Samuel R. Delany',
+     'first_sentence': 'to wound the autumnal city.',
+     'published': '1975'}
+]
+```
+
+The expected result of this operation is something like the following:
+
+|![](images/img5.PNG)|
+|:--:|
+|**Figure 5**: The API response after requesting a delete of a certain book.|
+
 
 
 
