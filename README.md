@@ -131,7 +131,7 @@ http://127.0.0.1:5000/resources/book?id=<id of the book you want to request>
 |**Figure 4**: The API response after requesting a certain book.|
 
 
-When using delete, by using some API manager send a request to the API at this URL:
+When using **DELETE** by using some *API manager*, send the request to the API at this URL:
 
 ```sh
 http://127.0.0.1:5000/book/delete?id=<the book you want to delete>
