@@ -188,7 +188,7 @@ http://127.0.0.1:5000/resources/book?title=<TITLE>&author=<AUTHOR>
 
 If you add parameters and execute it you will have something like this:
 
-|![](images/img6)|
+|![](images/img6.png)|
 |:--:|
 |**Figure 6**: The API response after requesting to add a new book.|
 
@@ -201,7 +201,7 @@ http://127.0.0.1:5000/resources/book?id=<ID>&key=<KEY>&value=<VALUE>
 
 If you add the new parameters and the execute it, you will have something like this:
 
-|![](images/img7)|
+|![](images/img7.png)|
 |:--:|
 |**Figure 7**: The API response after requesting to change the title data.|
 
