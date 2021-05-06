@@ -69,6 +69,13 @@ The previous line shows the way we are getting that parameter.
  The function is waiting for some arguments, in this case will be the author and the title of the new book, after doing the request the book is added succesful to the list of books.
  
 - **PUT**
+ In this example we use the **PUT** request to modify data from a book given the id. So the specified route for this request is as shown:
+ 
+ ```python
+ @main_api.route('/resources/book', methods=['PUT'])
+ ```
+ You have to create a **PUT** request from the client were you pass as parameters the id of the book you want to change the data, then the value you want to change and finally the new data, then the list of books is updated with the new information.
+ 
 - **DELETE:**
  When you want to delete some resource available in the API, this is the method you need to achieve that goal.
 
@@ -89,7 +96,7 @@ In that repository, the only thing you need to do is to execute the python scrip
 ```sh
 $ python3 api_hello_world.py
 ```
-In Windows, just type:
+In Windows or MAC, just type:
 
 ```sh
 $ python api_hello_world.py
