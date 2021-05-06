@@ -1,5 +1,4 @@
 # Python REST API tutorial
-*by Andrey Garro(@AndreyGarro) & Edgar Chaves(@Edjchg)*
 
 ### Some dependencies before start:
 
@@ -39,7 +38,7 @@ is by going to the browser access that path.
 
 ### Methods
 
-Like we explained before, there are some methods in a REST API, that are **GET**, **PUT**, **PUSH**, **DELETE**.
+Like we explained before, there are some methods in a REST API, that are **GET**, **PUT**, **POST**, **DELETE**.
 
 We specify that certain resource is obtained by one of this methods by declaring it like this example:
 
@@ -60,8 +59,16 @@ ide = int(request.args['id'])
 The previous line shows the way we are getting that parameter.
 
 
+- **POST**
+ In our example you can execute a **POST** request for adding a new book. So the resource is requested by the route specified at the beggining of the declaration by the next way:
+ 
+```python
+@main_api.route('/resources/book', methods=['POST'])
+ ```
+ 
+ The function is waiting for some arguments, in this case will be the author and the title of the new book, after doing the request the book is added succesful to the list of books.
+ 
 - **PUT**
-- **PUSH**
 - **DELETE:**
  When you want to delete some resource available in the API, this is the method you need to achieve that goal.
 
