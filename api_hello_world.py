@@ -23,6 +23,7 @@ books = [
      'published': '1975'}
 ]
 
+id = 3
 
 @main_api.route('/', methods=['GET'])
 def api_home():
@@ -57,6 +58,31 @@ def delete_book():
     for book in books:
         if book['id'] == ide:
             books.remove(book)
+    return jsonify(books)
+
+@main_api.route('/resources/book', methods=['POST'])
+def create_book():
+    global id
+    book_title = request.args['title']
+    book_author = request.args['author']
+    _new = {"title":book_title,
+            "author":book_author,
+            "id":id}
+    id += 1
+    books.append(_new)
+    return jsonify(books)
+
+@main_api.route('/resources/book', methods=['PUT'])
+def change_info_by_id():
+    _id = request.args['id']
+    _flag = request.args['key']
+    _data = request.args['value']
+
+    for i in books:
+        if i['id'] == int(_id):
+            i[_flag] = _data
+            break
+
     return jsonify(books)
 
 
