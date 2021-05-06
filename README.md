@@ -180,11 +180,30 @@ The expected result of this operation is something like the following:
 |**Figure 5**: The API response after requesting a delete of a certain book.|
 
 
+For executing a **POST** request to add a new book just type this url:
 
+```sh
+http://127.0.0.1:5000/resources/book?title=<TITLE>&author=<AUTHOR>
+```
 
+If you add parameters and execute it you will have something like this:
 
+|![](images/img6.PNG)|
+|:--:|
+|**Figure 6**: The API response after requesting to add a new book.|
 
+And finally, let's change the title of the last book we added, as you can see, in the last result our book id is '3' 
+so you have to type the next URL to create the request:
 
+```sh
+http://127.0.0.1:5000/resources/book?id=<ID>&key=<KEY>&value=<VALUE>
+```
+
+If you add the new parameters and the execute it, you will have something like this:
+
+|![](images/img7.PNG)|
+|:--:|
+|**Figure 7**: The API response after requesting to change the title data.|
 
 
 
